@@ -127,6 +127,68 @@
             <div class="cosmetic-info__titleBig">
                 why united and free is the effortless choice
             </div>
+            <div class="cosmetic-info__generalInfo">
+                <div class="cosmetic-info__rightInfo">
+                    <div class="cosmetic-info__firstBlock">
+                        <div class="cosmetic-info__healthy">
+                            Direct delivery to your door.
+                        </div>
+                        <div class="cosmetic-info__explaining">
+                            Order your products from the comfort of <br>your home
+                        </div>
+                        <img src="image/redline.png" alt="redline" title="redline">
+                    </div>
+                    <div class="cosmetic-info__firstBlock">
+                        <div class="cosmetic-info__healthy">
+                            Safe for all skin+hair types
+                        </div>
+                        <div class="cosmetic-info__explaining">
+                            PH balanced and small batch tested
+                        </div>
+                        <img src="image/redline.png" alt="redline" title="redline">
+                    </div>
+                    <div class="cosmetic-info__firstBlock">
+                        <div class="cosmetic-info__healthy">
+                            Made for man and women
+                        </div>
+                        <div class="cosmetic-info__explaining">
+                            Everyone can enjoy the product line
+                        </div>
+                        <img src="image/redline.png" alt="redline" title="redline">
+                    </div>
+                </div>
+                <div class="cosmetic-info__bottle">
+                    <img class="cosmetic-info__imageBottle" src="image/removeBottle.png" alt="bottle" title="bottle">
+                </div>
+                <div class="cosmetic-info__leftInfo">
+                    <div class="cosmetic-info__firstBlock">
+                        <div class="cosmetic-info__healthy right">
+                            Leaping  bunny certified
+                        </div>
+                        <div class="cosmetic-info__explaining right">
+                            All products are plant besed and <br>cruelty free
+                        </div>
+                        <img src="image/redLine2.png" alt="redline" title="redline">
+                    </div>
+                    <div class="cosmetic-info__firstBlock">
+                        <div class="cosmetic-info__healthy right">
+                            High quality ingredients
+                        </div>
+                        <div class="cosmetic-info__explaining right">
+                            Natural essential oils and herbal <br>extracts nourish skin and hair
+                        </div>
+                        <img src="image/redLine2.png" alt="redline" title="redline">
+                    </div>
+                </div>
+            </div>
+            <div class="cosmetic-info__blackButton">
+                <a class="cosmetic-info__buyBuy" href="/">
+                    buy now
+                </a>
+            </div>
         </div>
+    </div>
+    <div class="slider-inform">
+
     </div>
 </body>
