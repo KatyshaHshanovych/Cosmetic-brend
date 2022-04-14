@@ -1,0 +1,177 @@
+@import "general.css";
+
+.container {
+  width: 1280px;
+  margin: auto;
+}
+
+.welcome-page {
+  background: #F7F7F7;
+
+  &__landingImg {
+    width: 100%;
+    height: 970px;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  &__bigTitle {
+    font-size: 96px;
+    line-height: 113px;
+    text-transform: uppercase;
+    font-family: "Unica One", cursive;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  &__subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 24px 0 48px 0;
+    text-align: center;
+  }
+
+  &__whiteBuy {
+    font-size: 20px;
+    color: #171B1A;
+    padding: 28px 88px 28px 88px;
+    background: #FFFFFF;
+  }
+
+  &__buttonBuy {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__personalCare {
+    position: absolute;
+    width: 100%;
+    bottom: -35px;
+  }
+
+
+}
+
+.feedback-struggle {
+  background: #F7F7F7;
+
+  &__girlsText {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 145%;
+    color: #6D6D6D;
+  }
+
+  &__textFeedback {
+    width: 509px;
+    padding: 64px 63px 48px 74px;
+  }
+
+  &__minus {
+    color: #C0335D;
+    margin-right: 15px;
+  }
+
+  &__nameGirl {
+    color: #C0335D;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  &__feedback {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -155px;
+  }
+
+  &__namePerson {
+    display: flex;
+    align-items: center;
+  }
+
+  &__information {
+    background: #FFFFFF;
+    height: 242px;
+  }
+
+  &__nameBlock {
+    font-size: 30px;
+    font-weight: 400;
+    color: #171B1A;
+  }
+
+}
+
+.gridInform {
+
+  &__nameTitle {
+    font-size: 56px;
+    font-weight: 400;
+    color: #171B1A;
+    font-family: "Unica One", cursive;
+    text-transform: uppercase;
+  }
+
+  &__nameBlock {
+    font-size: 30px;
+    color: #171B1A;
+    padding: 24px 0 16px 0;
+  }
+
+  &__description {
+    font-size: 16px;
+    color: #6D6D6D;
+  }
+
+  &__blocks {
+    background: #FFFFFF;
+    padding: 48px 64px 48px 64px;
+  }
+
+  &__infoGrid {
+    display: grid ;
+    grid-template-columns: repeat(3, 405px);
+    grid-column-gap: 32px;
+    margin-top: 64px;
+  }
+}
+
+.cosmetic-info {
+
+  &__titleBig {
+    font-size: 56px;
+    font-family: "Unica One", cursive;
+    color: #171B1A;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+
+
+
+.header {
+  position: absolute;
+  width: 100%;
+
+  &__blocks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+  }
+
+  &__link {
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 400;
+    margin-right: 40px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+

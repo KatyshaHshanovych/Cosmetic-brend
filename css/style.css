@@ -1,3 +1,143 @@
+@import "general.css";
+.container {
+  width: 1280px;
+  margin: auto;
+}
 
+.welcome-page {
+  background: #F7F7F7;
+}
+.welcome-page__landingImg {
+  width: 100%;
+  height: 970px;
+  object-fit: cover;
+  object-position: top;
+}
+.welcome-page__bigTitle {
+  font-size: 96px;
+  line-height: 113px;
+  text-transform: uppercase;
+  font-family: "Unica One", cursive;
+  font-weight: 400;
+  text-align: center;
+}
+.welcome-page__subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 24px 0 48px 0;
+  text-align: center;
+}
+.welcome-page__whiteBuy {
+  font-size: 20px;
+  color: #171B1A;
+  padding: 28px 88px 28px 88px;
+  background: #FFFFFF;
+}
+.welcome-page__buttonBuy {
+  display: flex;
+  justify-content: center;
+}
+.welcome-page__personalCare {
+  position: absolute;
+  width: 100%;
+  bottom: -35px;
+}
+
+.feedback-struggle {
+  background: #F7F7F7;
+}
+.feedback-struggle__girlsText {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 145%;
+  color: #6D6D6D;
+}
+.feedback-struggle__textFeedback {
+  width: 509px;
+  padding: 64px 63px 48px 74px;
+}
+.feedback-struggle__minus {
+  color: #C0335D;
+  margin-right: 15px;
+}
+.feedback-struggle__nameGirl {
+  color: #C0335D;
+  font-size: 20px;
+  font-weight: 400;
+}
+.feedback-struggle__feedback {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -155px;
+}
+.feedback-struggle__namePerson {
+  display: flex;
+  align-items: center;
+}
+.feedback-struggle__information {
+  background: #FFFFFF;
+  height: 242px;
+}
+.feedback-struggle__nameBlock {
+  font-size: 30px;
+  font-weight: 400;
+  color: #171B1A;
+}
+
+.gridInform__nameTitle {
+  font-size: 56px;
+  font-weight: 400;
+  color: #171B1A;
+  font-family: "Unica One", cursive;
+  text-transform: uppercase;
+}
+.gridInform__nameBlock {
+  font-size: 30px;
+  color: #171B1A;
+  padding: 24px 0 16px 0;
+}
+.gridInform__description {
+  font-size: 16px;
+  color: #6D6D6D;
+}
+.gridInform__blocks {
+  background: #FFFFFF;
+  padding: 48px 64px 48px 64px;
+}
+.gridInform__infoGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 405px);
+  grid-column-gap: 32px;
+  margin-top: 64px;
+}
+
+.cosmetic-info__titleBig {
+  font-size: 56px;
+  font-family: "Unica One", cursive;
+  color: #171B1A;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+}
+.header__blocks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+.header__link {
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 400;
+  margin-right: 40px;
+}
+.header__link:last-child {
+  margin-right: 0;
+}
 
 /*# sourceMappingURL=style.css.map */
