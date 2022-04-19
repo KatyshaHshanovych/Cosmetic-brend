@@ -1,0 +1,12 @@
+@media (max-width: 1024px) {
+
+  .gridInform {
+    &__infoGrid {
+      grid-template-columns: repeat(3, 311px);
+    }
+  }
+
+  .container {
+    width: 800px;
+  }
+}

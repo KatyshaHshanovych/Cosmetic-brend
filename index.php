@@ -136,7 +136,7 @@
                         <div class="cosmetic-info__explaining">
                             Order your products from the comfort of <br>your home
                         </div>
-                        <img src="image/redline.png" alt="redline" title="redline">
+                        <img class="cosmetic-info__LineImg" src="image/redline.png" alt="redline" title="redline">
                     </div>
                     <div class="cosmetic-info__firstBlock">
                         <div class="cosmetic-info__healthy">
@@ -145,7 +145,7 @@
                         <div class="cosmetic-info__explaining">
                             PH balanced and small batch tested
                         </div>
-                        <img src="image/redline.png" alt="redline" title="redline">
+                        <img class="cosmetic-info__LineImg" src="image/redline.png" alt="redline" title="redline">
                     </div>
                     <div class="cosmetic-info__firstBlock">
                         <div class="cosmetic-info__healthy">
@@ -154,7 +154,7 @@
                         <div class="cosmetic-info__explaining">
                             Everyone can enjoy the product line
                         </div>
-                        <img src="image/redline.png" alt="redline" title="redline">
+                        <img class="cosmetic-info__LineImg" src="image/redline.png" alt="redline" title="redline">
                     </div>
                 </div>
                 <div class="cosmetic-info__bottle">
@@ -168,7 +168,7 @@
                         <div class="cosmetic-info__explaining right">
                             All products are plant besed and <br>cruelty free
                         </div>
-                        <img src="image/redLine2.png" alt="redline" title="redline">
+                        <img class="cosmetic-info__LineImg" src="image/redLine2.png" alt="redline" title="redline">
                     </div>
                     <div class="cosmetic-info__firstBlock">
                         <div class="cosmetic-info__healthy right">
@@ -177,7 +177,7 @@
                         <div class="cosmetic-info__explaining right">
                             Natural essential oils and herbal <br>extracts nourish skin and hair
                         </div>
-                        <img src="image/redLine2.png" alt="redline" title="redline">
+                        <img class="cosmetic-info__LineImg" src="image/redLine2.png" alt="redline" title="redline">
                     </div>
                 </div>
             </div>
@@ -188,7 +188,266 @@
             </div>
         </div>
     </div>
-    <div class="slider-inform">
-
+    <div class="brend-cosmetic">
+        <div class="container">
+            <div class="brend-cosmetic__featured">
+                as featured in
+            </div>
+            <div class="brend-cosmetic__gridImage">
+                <img src="image/brend/shopify.png" alt="img" title="img">
+                <img src="image/brend/vancouver.png" alt="img" title="img">
+                <img src="image/brend/elle.png" alt="img" title="img">
+                <img src="image/brend/bcbusiness.png" alt="img" title="img">
+            </div>
+        </div>
     </div>
+<!--    <div class="slider-shop">-->
+<!--        <div class="slider-shop__titleShop">-->
+<!--            shop united & free-->
+<!--        </div>-->
+<!--        <div class="container">-->
+<!--            <div class="slider-shop__sliders">-->
+<!--                <div class="slider-shop__item">-->
+<!--                    <img src="image/cosmetic/bottle_one.png" width="100" alt="img" title="img">-->
+<!--                </div>-->
+<!--                <div class="slider-shop__item">-->
+<!--                    <img src="image/cosmetic/bottle_two.png" width="100" alt="img" title="img">-->
+<!--                </div>-->
+<!--                <div class="slider-shop__item">-->
+<!--                    <img src="image/cosmetic/bottle_thee.png" width="100" alt="img" title="img">-->
+<!--                </div>-->
+<!--                <div class="slider-shop__item">-->
+<!--                    <img src="image/cosmetic/bottle_one.png" width="100" alt="img" title="img">-->
+<!--                </div>-->
+<!--                <div class="slider-shop__item">-->
+<!--                    <img src="image/cosmetic/bottle_two.png" width="100" alt="img" title="img">-->
+<!--                </div>-->
+<!--                <div class="slider-shop__item">-->
+<!--                    <img src="image/cosmetic/bottle_thee.png" width="100" alt="img" title="img">-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+    <div class="care-about">
+        <div class="container">
+            <div class="care-about__itemText">
+                Just like you we care about
+            </div>
+            <div class="care-about__naturals">
+                <div class="care-about__products">
+                    <img src="image/care/1.png" alt="img" title="1">
+                    <div class="care-about__textProducts">
+                        Cruelty Free Products
+                    </div>
+                </div>
+                <div class="care-about__products">
+                    <img src="image/care/2.png" alt="img" title="1">
+                    <div class="care-about__textProducts">
+                        Cruelty Free Products
+                    </div>
+                </div>
+                <div class="care-about__products">
+                    <img src="image/care/3.png" alt="img" title="1">
+                    <div class="care-about__textProducts">
+                        Cruelty Free Products
+                    </div>
+                </div>
+                <div class="care-about__products">
+                    <img src="image/care/4.png" alt="img" title="1">
+                    <div class="care-about__textProducts">
+                        Cruelty Free Products
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="how-works">
+        <div class="container">
+            <div class="how-works__textBlock">
+                How it works
+            </div>
+            <div class="how-works__threeItems">
+                <div class="how-works__information">
+                    <div class="how-works__smallBlock">
+                        <div class="how-works__number">
+                            01
+                        </div>
+                        <div class="how-works__comfort">
+                            Order online from the comfort
+                            of your home
+                        </div>
+                    </div>
+                </div>
+                <div class="how-works__information">
+                    <div class="how-works__smallBlock">
+                        <div class="how-works__number">
+                            02
+                        </div>
+                        <div class="how-works__comfort">
+                            Get your products delivered directly to your door
+                        </div>
+                    </div>
+                </div>
+                <div class="how-works__information">
+                    <div class="how-works__smallBlock">
+                        <div class="how-works__number">
+                            03
+                        </div>
+                        <div class="how-works__comfort">
+                            Use your products and love them
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="design-block">
+        <div class="design-block__interior">
+            <img class="design-block__imgRoomDesign" src="image/room.png" alt="room" title="room">
+            <div class="design-block__stressing">
+                <div class="design-block__infoStressing">
+                    <div class="design-block__textBlock">
+                        Stop stressing out over buying <br>your personal care products
+                    </div>
+                    <div class="design-block__buyRoom">
+                        <a class="design-block__blackBuyRoom" href="/">
+                            buy now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-block">
+        <div class="container">
+            <div class="footer-block__allItems">
+                <div class="footer-block__leftInformation">
+                    <div class="footer-block__logoFooter">
+                        <img src="image/Logo.png" alt="logo" title="logo">
+                    </div>
+                    <div class="footer-block__address">
+                        9470 192 St. Surrey, BC
+                        <br> Canada V4N 3R9
+                    </div>
+                    <div class="design-block__buyRoom">
+                        <a class="design-block__blackBuyRoom" href="/">
+                            contact us
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-block__rightInformation">
+                    <div class="footer-block__infoCompany">
+                        <div class="footer-block__titleInfo">
+                            Free Yourself
+                        </div>
+                        <div class="footer-block__items">
+                            <ul>
+                                <li class="footer-block__careSkin">
+                                    <a class="footer-block__linkItem" href="/">
+                                        Skin care
+                                    </a>
+                                </li>
+                                <li class="footer-block__careSkin">
+                                    <a class="footer-block__linkItem" href="/">
+                                        Shower & Bath
+                                    </a>
+                                </li>
+                                <li class="footer-block__careSkin">
+                                    <a class="footer-block__linkItem" href="/">
+                                        Bundles
+                                    </a>
+                                </li>
+                                <li class="footer-block__careSkin">
+                                    <a class="footer-block__linkItem" href="/">
+                                        Clothing
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-block__infoCompany">
+                        <div class="footer-block__titleInfo">
+                            Company
+                        </div>
+                        <div class="footer-block__items">
+                            <ul>
+                                <li class="footer-block__careSkin">
+                                    <a class="footer-block__linkItem" href="/">
+                                        About Us
+                                    </a>
+                                </li>
+                                <li class="footer-block__careSkin">
+                                    <a class="footer-block__linkItem" href="/">
+                                        Our Products
+                                    </a>
+                                </li>
+                                <li class="footer-block__careSkin">
+                                    <a class="footer-block__linkItem" href="/">
+                                        30 Day Love It
+                                    </a>
+                                </li>
+                                <li class="footer-block__careSkin">
+                                    <a class="footer-block__linkItem" href="/">
+                                        FAQs
+                                    </a>
+                                </li>
+                                <li class="footer-block__careSkin">
+                                    <a class="footer-block__linkItem" href="/">
+                                        Sitemap
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-block__infoCompany">
+                        <div class="footer-block__titleInfo">
+                            Follow Us
+                        </div>
+                        <div class="footer-block__items">
+                            <ul>
+                                <li class="footer-block__careSkin">
+                                    <a class="footer-block__linkItem" href="/">
+                                        Facebook
+                                    </a>
+                                </li>
+                                <li class="footer-block__careSkin">
+                                    <a class="footer-block__linkItem" href="/">
+                                        Twitter
+                                    </a>
+                                </li>
+                                <li class="footer-block__careSkin">
+                                    <a class="footer-block__linkItem" href="/">
+                                        Instagram
+                                    </a>
+                                </li>
+                                <li class="footer-block__careSkin">
+                                    <a class="footer-block__linkItem" href="/">
+                                        Free Life Blog
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-block__bottomBlocks">
+                <div class="footer-block__copyright">
+                    Copyright © 2020 United and Free. All Rights Reserved.
+                </div>
+                <div class="footer-block__payment">
+                    <div class="footer-block__pay">
+                        Accepted Payments
+                    </div>
+                    <div class="footer-block__payIcons">
+                        <img src="image/pay.png" alt="img" title="pay">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<!--    <script src="js/jquery.js"></script>-->
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
 </body>

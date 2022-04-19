@@ -186,4 +186,239 @@
   margin-right: 0;
 }
 
+.brend-cosmetic {
+  background: #fdfdfd;
+}
+.brend-cosmetic__featured {
+  font-size: 56px;
+  color: #171B1A;
+  font-family: "Unica One", cursive;
+  text-transform: uppercase;
+}
+.brend-cosmetic__gridImage {
+  display: grid;
+  grid-template-columns: repeat(4, 296px);
+  grid-column-gap: 32px;
+  padding: 64px 0 144px 0;
+}
+
+.care-about {
+  background: #fdfdfd;
+}
+.care-about__itemText {
+  font-size: 56px;
+  font-family: "Unica One", cursive;
+  color: #171B1A;
+  text-transform: uppercase;
+  text-align: center;
+}
+.care-about__textProducts {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #6D6D6D;
+  font-family: "Unica One", cursive;
+  padding-top: 25px;
+}
+.care-about__products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.care-about__naturals {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.how-works {
+  background: #fdfdfd;
+}
+.how-works__textBlock {
+  font-size: 56px;
+  font-family: "Unica One", cursive;
+  color: #171B1A;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 60px;
+}
+.how-works__number {
+  font-size: 48px;
+  font-family: "Unica One", cursive;
+  color: #C0335D;
+  text-transform: uppercase;
+}
+.how-works__comfort {
+  font-size: 18px;
+  color: #6D6D6D;
+  padding-top: 24px;
+}
+.how-works__information {
+  background: #F7F7F7;
+  padding: 48px 64px 50px 64px;
+}
+.how-works__threeItems {
+  display: grid;
+  grid-template-columns: repeat(3, 405px);
+  grid-column-gap: 32px;
+  padding: 64px 0 200px 0;
+}
+
+.design-block {
+  background: #fdfdfd;
+}
+.design-block__textBlock {
+  font-size: 30px;
+  color: #171B1A;
+}
+.design-block__blackBuyRoom {
+  font-size: 20px;
+  color: #FFFFFF;
+  background: #171B1A;
+  padding: 28px 88px 28px 88px;
+}
+.design-block__interior {
+  display: flex;
+  align-items: center;
+}
+.design-block__stressing {
+  width: 624px;
+  background: #FFFFFF;
+  position: absolute;
+  right: 17%;
+  box-shadow: 0 1px 7px grey;
+}
+.design-block__buyRoom {
+  margin-top: 48px;
+}
+.design-block__infoStressing {
+  padding: 96px 96px 80px 90px;
+}
+
+.footer-block {
+  background: #fdfdfd;
+}
+.footer-block__address {
+  font-size: 18px;
+  color: #6D6D6D;
+  padding: 40px 0 40px 0;
+}
+.footer-block__allItems {
+  padding-top: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-block__titleInfo {
+  font-size: 30px;
+  color: #171B1A;
+}
+.footer-block__linkItem {
+  font-size: 18px;
+  color: #6D6D6D;
+}
+.footer-block__infoCompany {
+  margin-right: 115px;
+}
+.footer-block__infoCompany:last-child {
+  margin-right: 0;
+}
+.footer-block__rightInformation {
+  display: flex;
+}
+.footer-block__items {
+  margin-top: 40px;
+}
+.footer-block__careSkin {
+  padding-bottom: 25px;
+}
+.footer-block__careSkin:last-child {
+  padding-bottom: 0;
+}
+.footer-block__copyright {
+  font-size: 15px;
+  color: #6D6D6D;
+}
+.footer-block__pay {
+  font-size: 15px;
+  color: #6D6D6D;
+  margin-right: 40px;
+}
+.footer-block__bottomBlocks {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-block__payment {
+  display: flex;
+}
+.footer-block__bottomBlocks {
+  padding: 90px 0 96px 0;
+}
+
+.slider-shop__titleShop {
+  font-size: 56px;
+  font-family: "Unica One", cursive;
+  text-transform: uppercase;
+  text-align: center;
+  color: #171B1A;
+}
+
+@media (max-width: 1280px) {
+  .header__blocks {
+    justify-content: space-around;
+  }
+
+  .welcome-page__bigTitle {
+    font-size: 75px;
+  }
+
+  .container {
+    width: 1000px;
+  }
+
+  .gridInform__infoGrid {
+    grid-template-columns: repeat(3, 330px);
+  }
+
+  .cosmetic-info__LineImg {
+    width: 300px;
+  }
+  .cosmetic-info__rightInfo {
+    width: 300px;
+  }
+  .cosmetic-info__generalInfo {
+    justify-content: unset;
+  }
+  .cosmetic-info__leftInfo {
+    width: 300px;
+  }
+
+  .brend-cosmetic__gridImage {
+    grid-row-gap: 30px;
+    grid-template-columns: repeat(2, 296px);
+    justify-content: center;
+  }
+  .brend-cosmetic__featured {
+    padding-top: 20px;
+  }
+
+  .how-works__threeItems {
+    grid-template-columns: repeat(3, 312px);
+  }
+
+  .design-block__interior {
+    justify-content: center;
+  }
+  .design-block__imgRoomDesign {
+    width: 1000px;
+  }
+}
+@media (max-width: 1024px) {
+  .gridInform__infoGrid {
+    grid-template-columns: repeat(3, 311px);
+  }
+
+  .container {
+    width: 800px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

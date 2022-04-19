@@ -1,5 +1,6 @@
 @import "general.css";
 
+
 .container {
   width: 1280px;
   margin: auto;
@@ -224,5 +225,223 @@
     }
   }
 }
+
+.brend-cosmetic {
+  background: #fdfdfd;
+
+  &__featured {
+    font-size: 56px;
+    color: #171B1A;
+    font-family: "Unica One", cursive;
+    text-transform: uppercase;
+  }
+
+  &__gridImage {
+    display: grid;
+    grid-template-columns: repeat(4, 296px);
+    grid-column-gap: 32px;
+    padding: 64px 0 144px 0;
+  }
+}
+
+.care-about {
+  background: #fdfdfd;
+
+  &__itemText {
+    font-size: 56px;
+    font-family: "Unica One", cursive;
+    color: #171B1A;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  &__textProducts {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #6D6D6D;
+    font-family: "Unica One", cursive;
+    padding-top: 25px;
+  }
+
+  &__products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__naturals {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+  }
+}
+
+.how-works {
+  background: #fdfdfd;
+
+  &__textBlock {
+    font-size: 56px;
+    font-family: "Unica One", cursive;
+    color: #171B1A;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 60px;
+  }
+
+  &__number {
+    font-size: 48px;
+    font-family: "Unica One", cursive;
+    color: #C0335D;
+    text-transform: uppercase;
+  }
+
+  &__comfort {
+    font-size: 18px;
+    color: #6D6D6D;
+    padding-top: 24px;
+  }
+
+  &__information {
+    background: #F7F7F7;
+    padding: 48px 64px 50px 64px;
+  }
+
+  &__threeItems {
+    display: grid;
+    grid-template-columns: repeat(3, 405px);
+    grid-column-gap: 32px;
+    padding: 64px 0 200px 0;
+  }
+}
+
+.design-block {
+  background: #fdfdfd;
+
+  &__textBlock {
+    font-size: 30px;
+    color: #171B1A;
+  }
+
+  &__blackBuyRoom {
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #171B1A;
+    padding: 28px 88px 28px 88px;
+  }
+
+  &__interior {
+    display: flex;
+    align-items: center;
+  }
+
+  &__stressing {
+    width: 624px;
+    background: #FFFFFF;
+    position: absolute;
+    right: 17%;
+    box-shadow: 0 1px 7px grey;
+  }
+
+  &__buyRoom {
+    margin-top: 48px;
+  }
+
+  &__infoStressing {
+    padding: 96px 96px 80px 90px;
+  }
+}
+
+.footer-block {
+  background: #fdfdfd;
+
+  &__address {
+    font-size: 18px;
+    color: #6D6D6D;
+    padding: 40px 0 40px 0;
+  }
+
+  &__allItems {
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__titleInfo {
+    font-size: 30px;
+    color: #171B1A;
+  }
+
+  &__linkItem {
+    font-size: 18px;
+    color: #6D6D6D;
+  }
+
+  &__infoCompany {
+    margin-right: 115px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__rightInformation {
+    display: flex;
+  }
+
+  &__items {
+    margin-top: 40px;
+  }
+
+  &__careSkin {
+    padding-bottom: 25px;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+
+  &__copyright {
+    font-size: 15px;
+    color: #6D6D6D;
+  }
+
+  &__pay {
+    font-size: 15px;
+    color: #6D6D6D;
+    margin-right: 40px;
+  }
+
+  &__bottomBlocks {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__payment {
+    display: flex;
+  }
+
+  &__bottomBlocks {
+    padding: 90px 0 96px 0;
+  }
+
+}
+
+.slider-shop {
+
+  &__titleShop {
+    font-size: 56px;
+    font-family: "Unica One", cursive;
+    text-transform: uppercase;
+    text-align: center;
+    color: #171B1A;
+  }
+}
+
+
+@import "adaptive_1280";
+@import "adaptive_1024";
+@import "adaptive_990";
+
+
 
 

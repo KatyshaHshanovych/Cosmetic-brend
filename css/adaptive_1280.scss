@@ -1,0 +1,75 @@
+@media (max-width: 1280px) {
+
+  .header {
+    &__blocks {
+      justify-content: space-around;
+    }
+  }
+
+  .welcome-page {
+
+    &__bigTitle {
+      font-size: 75px;
+    }
+  }
+
+  .container {
+    width: 1000px;
+  }
+
+  .gridInform {
+    &__infoGrid {
+      grid-template-columns: repeat(3, 330px);
+    }
+  }
+
+  .cosmetic-info {
+
+    &__LineImg {
+      width: 300px;
+    }
+
+    &__rightInfo {
+      width: 300px;
+    }
+
+    &__generalInfo {
+      justify-content: unset;
+    }
+
+    &__leftInfo {
+      width: 300px;
+    }
+  }
+
+  .brend-cosmetic {
+
+    &__gridImage {
+      grid-row-gap: 30px;
+      grid-template-columns: repeat(2, 296px);
+      justify-content: center;
+    }
+
+    &__featured {
+      padding-top: 20px;
+    }
+  }
+
+  .how-works {
+
+    &__threeItems {
+      grid-template-columns: repeat(3, 312px);
+    }
+  }
+
+  .design-block {
+
+    &__interior {
+      justify-content: center;
+    }
+
+    &__imgRoomDesign {
+      width: 1000px;
+    }
+  }
+}
